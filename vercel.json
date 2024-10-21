@@ -10,6 +10,10 @@
     {
       "src": "/weather/(.*)",
       "dest": "/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
